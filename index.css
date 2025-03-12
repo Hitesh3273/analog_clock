@@ -1,0 +1,77 @@
+*
+{
+    background-image: url(wall_img.avif);
+    background-size: 100%;
+}
+
+#charcter
+{ 
+    position: absolute;
+
+    margin-right: auto;
+    height: 43vw;
+    width: 45vw;
+    background: url(char2.jfif) no-repeat ;
+    background-size: 100%;
+    mix-blend-mode:multiply;
+}
+
+
+#clockcontainer
+{
+    position: relative;
+    margin-top: 3%;
+    margin-left: auto;  
+     
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.jfif) no-repeat;
+    mix-blend-mode:darken;
+    background-size: 100%;
+    opacity: 3.8;    
+
+}
+
+#clockcontainer img
+{
+    display: block;
+}
+
+#hour , #minute , #second
+{
+
+ position:absolute;
+ background: black;
+ border-radius: 10px;
+ transform-origin: bottom;
+
+}
+
+#hour
+{
+    width: 1%;
+    height: 15%;
+    top:36.4%;
+    left:50.3%;
+    opacity: 0.8;
+}
+
+#minute
+{
+
+    width: 0.8%;
+    height: 16.5%;
+    top:35%;
+    left:50.4%;
+    opacity: 0.8;
+}
+
+#second
+{
+    width: 0.9%;
+    height:20%;
+    top:32.2%;
+    left:50.4%;
+    opacity: 0.8;
+
+}
